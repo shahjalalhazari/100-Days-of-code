@@ -1,4 +1,3 @@
-from hashlib import new
 from turtle import Turtle
 
 class Ball(Turtle):
@@ -27,7 +26,7 @@ class Ball(Turtle):
     def bounce_x(self):
         """Bounce the ball into X direction when ball hit the paddles."""
         self.x_move *= -1
-        self.moving_speed *= 0.8
+        self.moving_speed *= 0.9
 
     def reset_position(self):
         """Reset ball's position."""

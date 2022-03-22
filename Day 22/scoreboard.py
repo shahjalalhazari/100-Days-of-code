@@ -1,4 +1,3 @@
-from sys import flags
 from turtle import Turtle, onclick
 
 
