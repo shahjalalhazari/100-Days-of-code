@@ -1,6 +1,3 @@
-from pydoc import plain
-import secrets
-from select import select
 from turtle import Screen
 import time
 from player import Player
@@ -12,6 +9,7 @@ screen = Screen()
 screen.setup(width=800, height=600)
 screen.tracer(0)
 
+
 # PLAYER / TURTLE
 player = Player()
 # CAR
@@ -20,11 +18,9 @@ car_manager = CarManager()
 scoreboard = Scoreboard()
 
 
-
 # MOVE TURTLE
 screen.listen()
 screen.onkey(player.move_forward, "Up") # movw turtle forward by UP key.
-
 
 
 game_on = True

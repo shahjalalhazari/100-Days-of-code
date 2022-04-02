@@ -21,10 +21,11 @@ class Player(Turtle):
     def move_forward(self):
         self.forward(MOVE_DISTANCE)
 
-    
+
     # GO TO STARTING POSITION
     def at_starting_position(self):
         self.goto(STARTING_POSITION)
+
 
     # LEVEL UP SUCCESSFULLY
     def at_finish_line(self):
