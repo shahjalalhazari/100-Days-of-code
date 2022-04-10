@@ -15,21 +15,21 @@ my_label = Label(text="This is a label.", font=("Arial", 12, "bold"))
 # We can't see any Label, if we don't use pack method.
 my_label["text"] = "My new label"  # To change current label.
 my_label.config(text="My new label")  # Update the label
-# my_label.pack()  # ByDefault pack display text at top-center, but we can change text position with "side"
+my_label.pack()  # ByDefault pack display text at top-center, but we can change text position with "side"
 # parameter.
 
 
 # Button
 button = Button(text="Continue", command=button_clicked)  # command is use as like event listener.
 # We can't see any Button, if we don't use pack method.
-# button.pack()
+button.pack()
 
 
 # Entry as Input
 my_input = Entry(width=50)  # Define an input field with 50px width.
 # Gets text in entry
 print(my_input.get())
-# my_input.pack()
+my_input.pack()
 
 
 
