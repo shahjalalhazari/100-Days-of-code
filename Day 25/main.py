@@ -10,7 +10,7 @@ with open("weather_data.csv") as weather_data:
 
 #####################
 # In previous day we're done this task in above method.
-# But right now this method will not go to work.
+# But right now this method will not going to work.
 # For that we need to import Python's library called CSV.
 # Now we will complete this task in new way.
 with open("weather_data.csv") as weather_data:
