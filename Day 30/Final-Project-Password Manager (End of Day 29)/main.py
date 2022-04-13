@@ -6,7 +6,6 @@ import json
 
 
 # ------------- PASSWORD GENERATOR ------------- #
-
 def generate_password():
     """This function is responsible for Generate Password."""
     letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
@@ -99,7 +98,6 @@ def find_password():
                 pyperclip.copy(password)
             else:
                 messagebox.showerror(title="Error", message=f"No details for {website} exists.")
-                print(website)
 
 
 # ------------- UI SETUP ------------- #
