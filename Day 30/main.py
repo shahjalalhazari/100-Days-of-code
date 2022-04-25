@@ -12,7 +12,6 @@ except KeyError as error_message:
     print(f"The Key {error_message} doesn't exist.")
 else:
     data = file.read()
-    print(data)
 finally:
     '''No matter what happened in other blocks. This block of code will run.'''
     file.close()
