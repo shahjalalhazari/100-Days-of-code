@@ -4,8 +4,8 @@ import pandas
 import random
 import smtplib
 
-MY_EMAIL = "djangoactivation@gmail.com"
-PASSWORD = "shajalal22"
+MY_EMAIL = "testing@gmail.com"
+PASSWORD = "my_password123"
 
 today = (datetime.now().month, datetime.now().day)
 
