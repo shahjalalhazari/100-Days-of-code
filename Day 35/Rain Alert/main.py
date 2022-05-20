@@ -6,7 +6,7 @@ ENDPOINT = "https://api.openweathermap.org/data/2.5/onecall"
 API_KEY = "6ea05a98207e22f0ac86a284fe799dc5"
 
 account_sid = "ACfbf6a87f61a91c812fc45d6bb00f4df7"
-auth_token = "MY AUTH TOKEN"
+auth_token = "cca8b5ac57a9c8253ad8d81d96300d83"
 
 
 parameters = {
