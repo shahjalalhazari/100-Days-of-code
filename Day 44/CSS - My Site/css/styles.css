@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #66bfbf;
+    font-size: 400%;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #66bfbf;
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3, a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+.middle-container {}
+
+.bottom-container {}
+
+.subtitle {
+    font-weight: normal;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.back-end {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.mountain {
+    padding: 0;
+    margin: 0;
+}
+
+.skills {
+    margin: 75px 0;
+}
+
+.skill-row {
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.computer-img {
+    border-radius: 50%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chillies-img {
+    border-radius: 50%;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
