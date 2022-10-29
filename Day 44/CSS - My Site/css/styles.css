@@ -14,7 +14,7 @@ h1 {
 
 h2 {
     color: #66bfbf;
-    font-size: 150%;
+    font-size: 180%;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -29,10 +29,6 @@ h3, a {
     padding-top: 100px;
 }
 
-
-.middle-container {}
-
-.bottom-container {}
 
 .subtitle {
     font-weight: normal;
@@ -55,7 +51,7 @@ h3, a {
 }
 
 .mountain {
-    padding: 0;
+    padding-top: 1.35%;
     margin: 0;
 }
 
@@ -82,4 +78,15 @@ h3, a {
     width: 25%;
     float: right;
     margin-left: 30px;
+}
+
+.box {
+    width: 7px;
+    height: 7px;
+    background-color: #eaf6f6;
+    align-items: center;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 1% 0 0 1%;
+    mar
 }
